@@ -3,7 +3,7 @@
 **Клонируем репозиторий c помощью команды**
 
 ```
- $ git clone https://github.com/Studio-Yandex-Practicum/sl_max_frontend.git
+ $ git clone https://github.com/Vasilii-0009/Todo-list.git
 ```
 
 **Устанавливаем зависимости**
