@@ -1,0 +1,33 @@
+.todo__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+[type="checkbox"]:not(:checked) {
+  position: relative;
+  opacity: 1;
+  pointer-events: auto;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+[type="checkbox"]:checked {
+  position: relative;
+  opacity: 1;
+  pointer-events: auto;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.todo__text {
+  display: inline-block;
+  font-size: 20px;
+  margin: 0 10px 0 10px;
+}
+
+.todo__delete {
+  cursor: pointer;
+}

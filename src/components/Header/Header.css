@@ -1,0 +1,23 @@
+.nav {
+  background-color: #26a69a;
+}
+.nav-wrapper {
+  margin: 0 2rem 0 2rem;
+}
+
+.nav-link {
+  font-size: 18px;
+}
+@media only screen and (max-width: 992px) {
+  nav .brand-logo {
+    left: 0%;
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .hide-on-med-and-down {
+    display: block !important;
+  }
+}
