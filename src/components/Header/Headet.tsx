@@ -1,5 +1,4 @@
 import "./Header.css";
-import { Link } from "react-router-dom";
 export const Header = () => {
   return (
     <>
@@ -10,14 +9,14 @@ export const Header = () => {
           </a>
           <ul id="nav-mobile" className="right hide-on-med-and-down">
             <li>
-              <Link className="nav-link" to="/">
+              <a href="/" className="nav-link">
                 Список дел
-              </Link>
+              </a>
             </li>
             <li>
-              <Link className="nav-link" to="/aboute">
+              <a href="/" className="nav-link">
                 Информация
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
