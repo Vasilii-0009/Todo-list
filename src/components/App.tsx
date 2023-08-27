@@ -10,8 +10,8 @@ const App: React.FC = () => {
       <Header />
       <div className="wrapper">
         <Routes>
-          <Route element={<TodoListPage />} path="/" />
-          <Route element={<AboutePage />} path="/aboute" />
+          <Route path="/" element={<TodoListPage />} />
+          <Route path="/aboute" element={<AboutePage />} />
         </Routes>
       </div>
     </>
