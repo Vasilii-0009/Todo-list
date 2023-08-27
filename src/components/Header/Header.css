@@ -1,12 +1,17 @@
 .nav {
   background-color: #26a69a;
 }
+
 .nav-wrapper {
   margin: 0 2rem 0 2rem;
 }
 
 .nav-link {
   font-size: 18px;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 20px;
 }
 @media only screen and (max-width: 992px) {
   nav .brand-logo {

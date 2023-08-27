@@ -8,16 +8,8 @@ export const Header = () => {
             Todo-list
           </a>
           <ul id="nav-mobile" className="right hide-on-med-and-down">
-            <li>
-              <a href="/" className="nav-link">
-                Список дел
-              </a>
-            </li>
-            <li>
-              <a href="/" className="nav-link">
-                Информация
-              </a>
-            </li>
+            <li className="nav__item">Список дел</li>
+            <li className="nav__item">Информация</li>
           </ul>
         </div>
       </nav>
