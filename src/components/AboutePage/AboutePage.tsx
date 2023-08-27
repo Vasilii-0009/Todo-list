@@ -14,7 +14,7 @@ export const AboutePage = () => {
               </p>
             </div>
             <div className="card-action">
-              <a href="/">This is a link</a>
+              <a href="/">This is link</a>
             </div>
           </div>
         </div>
