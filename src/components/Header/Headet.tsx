@@ -4,9 +4,7 @@ export const Header = () => {
     <>
       <nav className="nav">
         <div className="nav-wrapper">
-          <a href="/" className="brand-logo">
-            Todo-list
-          </a>
+          <div className="brand-logo">Todo-list</div>
           <ul id="nav-mobile" className="right hide-on-med-and-down">
             <li className="nav__item">Список дел</li>
             <li className="nav__item">Информация</li>

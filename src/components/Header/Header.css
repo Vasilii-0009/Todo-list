@@ -6,13 +6,22 @@
   margin: 0 2rem 0 2rem;
 }
 
+.brand-logo {
+  cursor: pointer;
+}
+
 .nav-link {
   font-size: 18px;
+}
+
+.nav__item {
+  cursor: pointer;
 }
 
 .nav__item:not(:last-child) {
   margin-right: 20px;
 }
+
 @media only screen and (max-width: 992px) {
   nav .brand-logo {
     left: 0%;
