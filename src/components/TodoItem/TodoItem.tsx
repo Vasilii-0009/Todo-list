@@ -1,27 +1,24 @@
 import "./TodoItem.css";
-import ITodo from "../types/interface";
-interface ITodoItem extends ITodo {
+import type { TodoItemType } from "../../common/models/TodoItemType";
+interface ITodoItem extends TodoItemType {
   onFnToggleTodo: (id: number) => void;
-  onFnRemoveleTodo: (id: number) => void;
 }
 
-const TodoItem: React.FC<ITodoItem> = (props) => {
-  const { id, title, complete, onFnRemoveleTodo, onFnToggleTodo } = props;
+const TodoItem: React.FC<ITodoItem> = ({
+  id,
+  title,
+  completed,
+  onFnToggleTodo,
+}) => {
   return (
     <label className="todo__item ">
       <input
         className="todo__checkbox"
         type="checkbox"
-        checked={complete}
+        checked={completed}
         onChange={() => onFnToggleTodo(id)}
       />
       <p className="todo__text">{title}</p>
-      <i
-        className="todo__delete material-icons red-text"
-        onClick={() => onFnRemoveleTodo(id)}
-      >
-        delete
-      </i>
     </label>
   );
 };
