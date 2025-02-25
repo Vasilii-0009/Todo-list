@@ -2,9 +2,8 @@
   "name": "to-do-ts",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vasilii-0009.github.io/",
+  "homepage": "https://vasilii-0009.github.io/Todo-list/",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
@@ -22,7 +21,8 @@
     "build": "react-scripts build",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test"
   },
   "eslintConfig": {
     "extends": [
@@ -43,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
     "gh-pages": "^6.0.0"
   }
 }
